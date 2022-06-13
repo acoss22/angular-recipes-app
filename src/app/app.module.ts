@@ -7,6 +7,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
 import { RecipeListComponent } from './recipes/recipe-list/recipe-list.component';
 import { RecipesComponent } from './recipes/recipes.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { ShoppingEditComponent } from './shopping-edit/shopping-edit.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
     RecipesComponent,
     RecipeListComponent,
     RecipeItemComponent,
-    ShoppingListComponent
+    ShoppingListComponent,
+    ShoppingEditComponent
   ],
   imports: [
     BrowserModule,
