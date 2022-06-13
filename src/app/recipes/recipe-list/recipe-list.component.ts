@@ -11,7 +11,7 @@ export class RecipeListComponent implements OnInit {
     new Recipe(
       'Bacalhau Com Natas',
       'this is a cod fish recipe',
-      'src/assets/cod.jpg'
+      '/assets/cod.jpg'
     ),
   ];
   constructor() {}
