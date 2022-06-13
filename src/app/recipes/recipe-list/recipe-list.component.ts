@@ -9,10 +9,15 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe(
-      'Bacalhau Com Natas',
-      'this is a cod fish recipe',
+      'Cod with cream',
+      'this is a cod fish recipe with cream on top',
       '/assets/cod.jpg'
     ),
+    new Recipe(
+      'Cod to Braz',
+      'this is a cod fish recipe with fried potato',
+      '/assets/codtobraz.jpg'
+    )
   ];
   constructor() {}
 
